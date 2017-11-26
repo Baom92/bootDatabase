@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 /**
- * Created by SOUL
+ * Created by Bignon
  * repository e base ? implementer par chaque entite
  * @param <T>
  */
@@ -185,7 +185,7 @@ public abstract class BaseRepository<T> {
     }
 	
 
-								/*   F  R  O  M       B  I  G  N  O  N    */
+	/*   F  R  O  M       B  I  G  N  O  N    */
 
 
      public List<T> findByCriterias(String attr, String sens,int offset, int limit){
@@ -216,7 +216,7 @@ public abstract class BaseRepository<T> {
             return result;
     }
      
-	 // methode qui fait une requete de recherche sur un attribut avec une valeur donnée
+	 // methode qui fait une requete de recherche sur un attribut avec une valeur donnÃ©e
      public List<T> search(Object o ,Object value){
         
             String className = entityClass.getSimpleName(); 
